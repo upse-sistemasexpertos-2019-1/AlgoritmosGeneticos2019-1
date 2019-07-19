@@ -59,7 +59,8 @@ public abstract class Cromosoma implements Cruzable, Mutable {
 		{
 			cromosomaString = cromosomaString + c;
 		}
-		cromosomaString = cromosomaString + "\t fitness" + fitness;
+		cromosomaString = cromosomaString + "\t fitness: " + fitness;
+		cromosomaString = cromosomaString + "\t Objetct : " + super.toString();
 		cromosomaString = cromosomaString +"\n";
 		return cromosomaString;
 	}
